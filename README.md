@@ -40,7 +40,7 @@ INSERT INTO users (username, password, role) VALUES ('admin', 'admin', 'admin');
 INSERT INTO users (username, password, role) VALUES ('user1', 'user1', 'user');
 INSERT INTO users (username, password, role) VALUES ('guest1', 'guest1', 'guest');
 
-🔌 Connecting IoT Components (ESP32)
+##🔌 Connecting IoT Components (ESP32)
 This project can interface with IoT hardware components like LEDs, sensors, and touch modules using the ESP32. Below is the wiring guide:
 
 🟢 Connect the LED
@@ -73,7 +73,7 @@ GND → GND on ESP32
 
 I/O → GPIO 5
 
-✅ To-Do / Future Features
+##✅ To-Do / Future Features
 ⏱️ Auto logout on inactivity
 
 🔒 Password hashing
@@ -83,9 +83,9 @@ I/O → GPIO 5
 📊 Data logging with timestamps
 
 
-📘 User Manual
+##📘 User Manual
 For a detailed walkthrough, implementation screenshots, and explanation, refer to the "User-Manual.pdf" file included in the repo.
 
-📜 License
+##📜 License
 MIT License
 You are free to use, modify, and distribute this project with attribution.
