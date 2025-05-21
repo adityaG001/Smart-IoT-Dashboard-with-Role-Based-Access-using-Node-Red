@@ -39,8 +39,8 @@ CREATE TABLE users (
     password TEXT NOT NULL,
     role TEXT CHECK(role IN ('admin', 'user', 'guest')) NOT NULL
 );
+```
 
----
 
 ## 🔌 Connecting IoT Components (ESP32)
 
